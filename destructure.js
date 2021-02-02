@@ -3,7 +3,7 @@ const person = { name: "sajib", address: "Bus Station", id: 101, age: 17, job:"B
 // access the object normally
 console.log(person.name, person.age);
 
-// access the object in ES6 style
+// access the object in destructure style
 const {address, name, job} = person;
 console.log(address, job);
 
